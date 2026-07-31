@@ -13,7 +13,7 @@ namespace Assignment4
     {
         private string password = "secret";
         internal int copiesInStock = 5;
-        public string Title { get; set; }
+        public string Title;
         public Genre Genre { get; set; }
     }
     internal class Program
