@@ -65,6 +65,18 @@ namespace Assignment4
             // Output Science
             #endregion
 
+            #region Question5
+            // Print the underlying int value of each Genre.
+
+            //Console.WriteLine((int)Genre.Fiction);
+            //Console.WriteLine((int)Genre.NonFiction);
+            //Console.WriteLine((int)Genre.Science);
+
+            // Output
+            // 0
+            // 1
+            // 2
+            #endregion
 
         }
     }
