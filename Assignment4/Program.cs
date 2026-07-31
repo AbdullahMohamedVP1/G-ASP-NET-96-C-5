@@ -43,6 +43,16 @@ namespace Assignment4
             //it compiles because internal are accessible from anywhere inside the same project
             #endregion
 
+            #region Question3
+            // Add a public string Title field to Book.
+            // Set it and print it from Main.
+
+            //book.Title = "Harry Potter";
+            //Console.WriteLine(book.Title);
+
+            // Output: Harry Potter
+            // public members can be accessed from anywhere
+            #endregion
 
         }
     }
