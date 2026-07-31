@@ -54,6 +54,18 @@ namespace Assignment4
             // public members can be accessed from anywhere
             #endregion
 
+            #region Question4
+            // Declare an enum Genre.
+            // Add a Genre property to Book.
+            // Assign Genre.Science and print it.
+
+            //book.Genre = Genre.Science;
+            //Console.WriteLine(book.Genre);
+
+            // Output Science
+            #endregion
+
+
         }
     }
 }
