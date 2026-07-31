@@ -103,6 +103,35 @@ namespace Assignment4
 
             // Output fiction
             #endregion
+
+            #region Question8
+            // Given string genreText = "Science";
+            // Convert it into a Genre value using Enum.Parse().
+
+            //string genreText = "Science";
+            //Genre parsedGenre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine(parsedGenre);
+
+            // Output:
+            // Science
+            #endregion
+
+            #region Question9
+            // Given string genreText = "Mystery";
+            // Use Enum.TryParse() and print "Unknown genre" if it fails.
+
+            //string invalidGenre = "Mystery";
+
+            //if (Enum.TryParse(invalidGenre, out Genre result))
+            //{
+            //    Console.WriteLine(result);
+            //}
+            //else
+            //{Console.WriteLine("Unknown genre");}
+
+            // Output unknown genre
+            #endregion
+
         }
     }
 }
