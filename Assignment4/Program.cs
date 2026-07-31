@@ -33,6 +33,17 @@ namespace Assignment4
             // private members can only be accessed inside the same class
             #endregion
 
+            #region Question2
+            //Add an internal int copiesInStock = 5; field to Book.
+            //Print it from Main. Does it compile? Why?
+
+            //Console.WriteLine(book.copiesInStock);
+
+            // Output 5
+            //it compiles because internal are accessible from anywhere inside the same project
+            #endregion
+
+
         }
     }
 }
