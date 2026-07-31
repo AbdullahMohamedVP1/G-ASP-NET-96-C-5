@@ -78,6 +78,31 @@ namespace Assignment4
             // 2
             #endregion
 
+            #region Question6
+            // Given int genreNumber = 1;
+            // Cast it into a Genre value and print it.
+
+            //int genreNumber = 1;
+
+            //Genre genre = (Genre)genreNumber;
+
+            //Console.WriteLine(genre);
+
+            // Output NonFiction
+            #endregion
+
+            #region Question7
+            // Given Genre genre = Genre.Fiction;
+            // Convert it into a string using ToString().
+
+            //Genre genre2 = Genre.Fiction;
+
+            //string genreString = genre2.ToString();
+
+            //Console.WriteLine(genreString);
+
+            // Output fiction
+            #endregion
         }
     }
 }
